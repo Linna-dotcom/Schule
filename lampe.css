@@ -4,6 +4,8 @@
     height: 512px;
     width: 512px;
     border-radius: 512px;
+    display: flex;
+    justify-content: center;
 }
 
 button {
