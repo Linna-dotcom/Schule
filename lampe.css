@@ -1,10 +1,13 @@
 #Lampe {
+    background-color: rgb(255, 234, 0);
     background-image: url("img/IMG_1943.png");
     height: 512px; 
     width: 512px;
     border-radius: 512px; 
     display: flex;
     justify-content:center;
+    flex-direction: column-reverse;
+    align-items: center;
 }
 
 button {
@@ -13,4 +16,11 @@ button {
     background-color: rgb(0, 0, 0);
     border-radius: 75px; 
     color:rgb(255, 234, 0);
+    font-size: 50px;
 }
+
+
+
+
+
+
