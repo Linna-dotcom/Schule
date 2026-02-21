@@ -1,12 +1,12 @@
 document.addEventListener('DOMContentLoaded', function() {
 
 var handleClick = function () {
-    if (document.querySelector('#Lampe').style.backgroundImage === 'url("../Linna_Mackenbrock_Portfolio/img/licht-aus.png")') {
-        document.querySelector('#Lampe').style.backgroundImage = 'url("../Linna_Mackenbrock_Portfolio/img/licht-an.png")'; 
+    if (document.querySelector('#Lampe').style.backgroundImage === 'url("IMG_1944")') {
+        document.querySelector('#Lampe').style.backgroundImage = 'url("IMG_1943")'; 
         document.querySelector('#Lampe').style.backgroundColor = 'rgb(255, 234, 0)';
 
     } else {
-        document.querySelector('#Lampe').style.backgroundImage = 'url("../Linna_Mackenbrock_Portfolio/img/licht-aus.png")';
+        document.querySelector('#Lampe').style.backgroundImage = 'url("IMG_1944")';
         document.querySelector('#Lampe').style.backgroundColor = 'grey';
     }
 
