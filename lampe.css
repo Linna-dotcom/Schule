@@ -1,9 +1,9 @@
 #Lampe {
     background-color: rgb(255, 234, 0);
     background-image: url("IMG_1943.png");
-    height: 1250px; 
-    width: 1250px;
-    border-radius: 1250px; 
+    height: 125px; 
+    width: 125px;
+    border-radius: 125px; 
     display: flex;
     justify-content:center;
     flex-direction: column-reverse;
@@ -11,10 +11,10 @@
 }
 
 button {
-    height: 250px; 
-    width: 250px;
+    height: 25px; 
+    width: 25px;
     background-color: rgb(0, 0, 0);
-    border-radius: 75px; 
+    border-radius: 7,5px; 
     color:rgb(255, 234, 0);
-    font-size: 50px;
+    font-size: 5px;
 }
